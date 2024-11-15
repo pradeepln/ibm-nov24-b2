@@ -13,6 +13,8 @@ public class FixedArrayStack implements Stack {
 	public void push(Object anElement) {
 		contents[++top] = anElement;
 		System.out.println("FAS push called");
+		
+		
 	}
 	
 	@Override
