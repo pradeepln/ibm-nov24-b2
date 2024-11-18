@@ -1,7 +1,7 @@
 package com.ibm.training.collections;
 
 import java.util.Collection;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -13,7 +13,9 @@ public class MapDemo {
 	}
 
 	private static void mapOps() {
-		Map<String,Integer> runsMap = new HashMap<>();
+//		Map<String,Integer> runsMap = new HashMap<>();
+		
+		Map<String,Integer> runsMap = new LinkedHashMap<>();
 		
 		runsMap.put("rohit", 10);
 		runsMap.put("virat", 14);
@@ -45,15 +47,15 @@ public class MapDemo {
 			System.out.println(aKey+" -----------> "+runsMap.get(aKey));
 		}
 		
-		System.out.println("Anyone with exactly 199? "+(runsMap.containsValue(199)));
-		System.out.println("Anyone with exactly 200? "+(runsMap.containsValue(200)));
-		
-		runsMap.put("sachin", 200);
-		
-		allKeys = runsMap.keySet();
-		for(String aKey : allKeys) {
-			System.out.println(aKey+" -----------> "+runsMap.get(aKey));
-		}
+//		System.out.println("Anyone with exactly 199? "+(runsMap.containsValue(199)));
+//		System.out.println("Anyone with exactly 200? "+(runsMap.containsValue(200)));
+//		
+//		runsMap.put("sachin", 200);
+//		
+//		allKeys = runsMap.keySet();
+//		for(String aKey : allKeys) {
+//			System.out.println(aKey+" -----------> "+runsMap.get(aKey));
+//		}
 	}
 
 }
