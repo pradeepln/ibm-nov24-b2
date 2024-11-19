@@ -26,7 +26,7 @@ public class SystemDemo {
 //		String input = kb.nextLine();
 //		System.out.println(input);
 		
-		System.out.println(System.getProperties());
+//		System.out.println(System.getProperties());
 		
 	}
 

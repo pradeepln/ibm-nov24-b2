@@ -4,6 +4,7 @@ public class LiteralDemo {
 
 	public static void main(String[] args) {
 
+		m1(-1);
 		m1(17);
 		m1(17L);
 		m1(17D);

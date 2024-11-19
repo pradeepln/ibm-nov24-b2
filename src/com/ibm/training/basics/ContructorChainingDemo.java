@@ -13,17 +13,7 @@ public class ContructorChainingDemo {
 }
 
 
-class Employee{
-	int id;
-	String name;
-	
-	public Employee(int id,String name) {
-		super();
-		System.out.println("In Employee Constructor");
-		this.id = id;
-		this.name = name;
-	}
-}
+
 
 
 class Manager extends Employee{
