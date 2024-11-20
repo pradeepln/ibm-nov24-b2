@@ -39,6 +39,16 @@ public class StreamsDemo {
 			.map(s -> s.length())
 			.filter(i -> i % 2 == 0)
 			.forEach(System.out::println);
+		
+		//printSpecial("abc");
+		
+		//words.stream().forEach(s -> printSpecial(s));
 	}
 
+	
+//	public static String printSpecial(String x) {
+//		String special = x + "!";
+//		System.out.println(special);
+//		return special;
+//	}
 }
