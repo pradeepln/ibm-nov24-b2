@@ -3,6 +3,7 @@ package com.ibm.training.io.serialization;
 import java.io.Serializable;
 import java.util.Arrays;
 
+@SuppressWarnings("serial")
 public class GameData implements Serializable {
 	
 	int points = 0, level = 1, lives = 10;
